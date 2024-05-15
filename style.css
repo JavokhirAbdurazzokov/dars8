@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+header {
+    padding: 27px 0;
+    background-color: rgba(243, 215, 183, 1);
+
+}
+
+header .contanier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contanier ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+header .contanier ul li {
+    list-style: none;
+
+}
+
+header .contanier ul li a {
+    text-decoration: none;
+    font-size: 23px;
+}
+.hero3{
+    padding: 50px 0;
+    background-color:  rgba(243, 215, 183, 1);
+    height: 150px;
+}
+.hero2{
+    padding: 50px 0;
+background-color: antiquewhite;
+    height: 2050px;
+}
+
+.hero{
+    padding: 50px 0;
+    background-color:  rgba(243, 215, 183, 1);
+    height: 650px;
+}
+.hero .contanier {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+.kichkina{
+    position: relative;
+}
+.katta{
+    font-size: 25px;
+}
+.katta h1{
+padding-bottom: 55px;
+}
+
+.img2 {
+    z-index: 2;
+    position: absolute;
+    left: -75px;
+    top: -75px;
+}
+.katta button{
+    padding: 10px;
+    background-color: rgba(10, 119, 95, 1);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: rgba(10, 119, 95, 1) ;
+    border: 1px solid  rgba(10, 119, 95, 1);
+}
+.h12{
+    padding-top: 210px;
+    text-align: center;
+    font-size: 77px;
+}
+.kopi1{
+    padding-top: 50px;
+display: flex;
+}
+.kopi1k{
+    font-size: 30px;
+ padding: 60px;
+}
+.kopi1k h2{
+    padding-bottom: 25px;
+}
+.kopi1 img:hover{
+    transition: 2s;
+    transform: scale(1.5);
+}
+.home ul li{
+    list-style: none;
+    display: flex;
+}
+.home ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+}
+.hero3 .contanier{
+display: flex;
+justify-content: space-between;
+}
+.home ul{
+    display: flex;  
+    gap: 25px;
+}
+.logo{
+    font-size: 25px;
+  
+}
+.otacup{
+    display: flex;
+    text-align: center;
+    align-items: center;
+     gap: 150px;
+}
+.cup{
+    padding: 100px;
+}
+.hero5{
+    background-color: antiquewhite;
+}
+.Our h1{
+    padding:30px;
+}
+.ota9{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 200px;
+}
+.rasm img{
+    margin-top: -100px;
+}
+.hero9{
+    background-color:  rgba(243, 215, 183, 1);
+
+}
+.hero10{
+    background-color: antiquewhite;
+
+}
+.otaa{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
